@@ -1,0 +1,59 @@
+
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.task-list li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-list li .task-details {
+  display: flex;
+  align-items: center;
+}
+
+.task-list li .task-details span {
+  margin-right: 10px; /* Add margin between task name and date/time */
+}
+
+.task-list li .timestamp {
+  font-size: 14px; /* Optional: Adjust font size for timestamp */
+}
+
+.task-list li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.task-list li button:hover {
+  background-color: #c82333;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timestamp {
+  margin-left: 10px; /* Add margin to create space */
+}
